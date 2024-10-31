@@ -1,0 +1,23 @@
+Feladat: Helyi Kiadó (Local Publisher)
+
+Cél: Készíts egy parancssori alkalmazást, amely lehetővé teszi a felhasználók számára, hogy könyveket adjanak hozzá, keressenek és listázzanak.
+Funkciók:
+
+    Könyv hozzáadása:
+        A felhasználónak meg kell adnia a könyv címét, szerzőjét és ISBN számát.
+        A könyveket tárolhatod egy struktúrában, például Book, amely tartalmazza ezeket az adatokat.
+
+    Könyvek listázása:
+        A felhasználó parancsra megjelenítheti az összes tárolt könyvet.
+
+    Könyv keresése:
+        A felhasználó megadhat egy könyv címét vagy szerzőjét, és a program megkeresi azokat a könyveket, amelyek megfelelnek a keresési feltételeknek.
+
+    Könyv törlése:
+        A felhasználó megadhatja egy könyv címét, és a program eltávolítja azt a tárolt könyvek közül.
+
+További kihívások:
+
+    Használj serde-t a könyvek JSON fájlba mentéséhez és onnan való beolvasásához, hogy a könyvek megmaradjanak a program újraindítása után.
+    Implementálj hibakezelést a felhasználói bemenetek érvényességére.
+    Gondolj a tesztelésre, írj teszteket a funkciókhoz, hogy biztos lehess benne, hogy a kódod helyesen működik.
