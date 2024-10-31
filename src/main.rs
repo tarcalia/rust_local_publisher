@@ -1,6 +1,8 @@
 use std::io;
+use services::book_service::handle_input;
 
-use services.book_service;
+mod services;
+mod models;
 
 fn main() {
     loop {
@@ -18,6 +20,8 @@ fn main() {
             println!("Exiting application");
             break;
         }
+
+        handle_input(&input);
 
         println!("Received word is: {}", input);
     }
